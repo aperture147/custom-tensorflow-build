@@ -1,0 +1,12 @@
+Keras
+matplotlib
+scikit-image 
+pyzmq
+pip
+six
+numpy
+setuptools
+mock
+future
+keras_applications
+keras_preprocessing

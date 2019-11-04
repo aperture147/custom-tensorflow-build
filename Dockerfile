@@ -15,7 +15,7 @@ RUN apt-get update && \
 
 WORKDIR /build 
 
-COPY ./tensorflow/requirements.txt ./requirements.txt
+COPY ./requirements.txt ./requirements.txt
 
 RUN pip3 install wheel && pip3 install -r requirements.txt
 
