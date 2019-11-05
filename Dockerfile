@@ -25,8 +25,10 @@ RUN curl -L https://github.com/bazelbuild/bazel/releases/download/0.26.1/bazel-0
 
 COPY ./tensorflow ./tensorflow
 
+ARG comp_cap=6.1
+
 RUN cd tensorflow && \
-    echo "/usr/bin/python3\n\nn\n\n\ny\n\n6.1\n\n\n\n\n\n" | ./configure && \
+    echo "/usr/bin/python3\n\nn\n\n\ny\n\n$comp_cap\n\n\n\n\n\n" | ./configure && \
     cat .tf_configure.bazelrc && \
     bazel build --config=opt --config=cuda --config=noaws --config=nogcp --config=nohdfs --config=noignite --config=nokafka --config=nonccl //tensorflow/tools/pip_package:build_pip_package
 
