@@ -5,7 +5,7 @@ Prebuild Tensorflow Runtime downloaded from Tensorflow Docker repository doesn't
 AVX, so people who have CPU older than Sandy Bridge may have to compile the runtime from the source.
 
 This is a prebuild runtime built on Intel® Xeon(R) CPU E5645 and NVIDIA Titan XP. Note that this build is for GPU
-and dedicated to those CPU and GPU. Please look at (my github)[https://github.com/aperture147/tensorflow-non-avx-docker] for build template. 
+and dedicated to those CPU and GPU. Please look at [my github](https://github.com/aperture147/tensorflow-non-avx-docker) for build template. 
 
 ## Tags
 `bionic-slim`: GPU build without AWS, GPU, HDFS, Apache Ignite, Kafka and NCCL support
