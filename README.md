@@ -16,6 +16,6 @@ docker build . -t <your-image-name> --build-arg comp-cap=<your-gpu-compute-capab
 * Wait for the building process
 
 ## Tags
-`bionic-slim`: Ubuntu 18.04 GPU build without AWS, GPU, HDFS, Apache Ignite, Kafka and NCCL support
+`bionic-slim`: Ubuntu 18.04 GPU build without AWS, GPU, HDFS, Apache Ignite, Kafka and NCCL support with compute capabilities 6.1
 
-more build template will be made
+More build templates/build images will be made in the future
