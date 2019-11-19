@@ -11,7 +11,7 @@ and dedicated to those CPU and GPU. Please look at [my github](https://github.co
 * Clone this repository to a directory and move to that.
 * Run:
 ```
-docker build . -t <your-image-name> --build-arg comp-cap=<your-gpu-compute-capabilites>
+docker build . -t <your-image-name> --build-arg comp_cap=<your-gpu-compute-capabilites>
 ```
 * Wait for the building process
 
