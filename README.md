@@ -1,5 +1,7 @@
 # Custom Tensorflow Dockerfile
 
+Read my blog post in Vietnamese: https://blog.haivq.com/ghost/#/editor/post/5dd390db778ac10001d27345
+
 ## Description
 
 You can use this Dockerfile to build your Tensorflow on any machine to get a better optimization.
