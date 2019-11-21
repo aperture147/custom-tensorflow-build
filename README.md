@@ -1,6 +1,6 @@
 # Custom Tensorflow Dockerfile
 
-Read my blog post in Vietnamese: https://blog.haivq.com/ghost/#/editor/post/5dd390db778ac10001d27345
+Read my blog post in Vietnamese: https://blog.haivq.com/build-tensorflow-docker/
 
 ## Description
 
